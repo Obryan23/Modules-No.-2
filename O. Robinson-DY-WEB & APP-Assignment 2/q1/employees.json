@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "firstName": "Emma",
+    "lastName": "Green",
+    "age": 28,
+    "salary": 52000
+  },
+  {
+    "id": 2,
+    "firstName": "Jane",
+    "lastName": "Wright",
+    "age": 35,
+    "salary": 60000
+  },
+  {
+    "id": 3,
+    "firstName": "Liam",
+    "lastName": "Brown",
+    "age": 42,
+    "salary": 88000
+  },
+  {
+    "id": 4,
+    "firstName": "Noah",
+    "lastName": "Fox",
+    "age": 25,
+    "salary": 100000
+  },
+  {
+    "id": 5,
+    "firstName": "Olivia",
+    "lastName": "Smith",
+    "age": 53,
+    "salary": 69000
+  },
+  {
+    "id": 6,
+    "firstName": "Sophia",
+    "lastName": "Brown",
+    "age": 24,
+    "salary": 96000
+  }
+]

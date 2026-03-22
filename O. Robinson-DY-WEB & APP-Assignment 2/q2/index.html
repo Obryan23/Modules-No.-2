@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Module 2 - Assignment 2 - Q2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Payment Form</h1>
+
+  <form id="paymentForm" novalidate>
+
+    <h2>Payment Method</h2>
+    <label>
+      <input type="radio" name="paymentMethod" value="card" checked>
+      Credit Card
+    </label>
+    <label>
+      <input type="radio" name="paymentMethod" value="paypal">
+      PayPal
+    </label>
+
+    <div id="cardFields">
+      <label>Card Number:
+        <input type="text" id="cardNumber" required>
+      </label>
+
+      <label>Expiry:
+        <input type="text" id="expiry" placeholder="MM/YY" required>
+      </label>
+
+      <label>CVV:
+        <input type="text" id="cvv" required>
+      </label>
+    </div>
+
+    <h2>Billing Information</h2>
+    <label>Email:
+      <input type="email" id="email" required>
+    </label>
+
+    <label>
+      <input type="checkbox" id="sameAsBilling" checked>
+      Same as billing information
+    </label>
+
+    <div id="shippingFields" class="hidden">
+      <h3>Shipping Information</h3>
+
+      <label>Address:
+        <input type="text" id="shipAddress">
+      </label>
+
+      <label>City:
+        <input type="text" id="shipCity">
+      </label>
+
+      <label>Postal Code:
+        <input type="text" id="shipPostal">
+      </label>
+    </div>
+
+    <button type="submit">Submit Payment</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>

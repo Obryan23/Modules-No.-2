@@ -1,0 +1,8 @@
+{
+  "id": 1,
+  "first_name": "Emma",
+  "last_name": "Green",
+  "email": "emma.green@example.com",
+  "department": "Finance",
+  "salary": 52000
+}
